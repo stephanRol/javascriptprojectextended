@@ -1,0 +1,138 @@
+{
+    "laender":[
+        {
+            "name": "Deutschland",
+            "biokapazitaetPerPerson": "1.5",
+            "OekologischerFussabdruckPerPerson": "4.7",
+            "totalOekologischerFussabdruck": "386000000",
+            "totalBiokapazitaet": "127000000"
+        },
+        {
+            "name": "England",
+            "biokapazitaetPerPerson": "1.1",
+            "OekologischerFussabdruckPerPerson": "4.2",
+            "totalOekologischerFussabdruck": "278000000",
+            "totalBiokapazitaet": "71800000"
+        },
+        {
+            "name": "Frankreich",
+            "biokapazitaetPerPerson": "2.5",
+            "OekologischerFussabdruckPerPerson": "4.6",
+            "totalOekologischerFussabdruck": "299000000",
+            "totalBiokapazitaet": "164000000"
+        },
+        {
+            "name": "Spain",
+            "biokapazitaetPerPerson": "1.2",
+            "OekologischerFussabdruckPerPerson": "4.0",
+            "totalOekologischerFussabdruck": "187000000",
+            "totalBiokapazitaet": "55800000"
+        },
+        {
+            "name": "Italien",
+            "biokapazitaetPerPerson": "0.9",
+            "OekologischerFussabdruckPerPerson": "4.4",
+            "totalOekologischerFussabdruck": "262000000",
+            "totalBiokapazitaet": "52000000"
+        },
+        {
+            "name": "Vereinigte Staaten",
+            "biokapazitaetPerPerson": "3.4",
+            "OekologischerFussabdruckPerPerson": "8.0",
+            "totalOekologischerFussabdruck": "2610000000",
+            "totalBiokapazitaet": "1120000000"
+        },
+        {
+            "name": "Kanada",
+            "biokapazitaetPerPerson": "15.0",
+            "OekologischerFussabdruckPerPerson": "8.1",
+            "totalOekologischerFussabdruck": "296000000",
+            "totalBiokapazitaet": "549000000"
+        },
+        {
+            "name": "Mexiko",
+            "biokapazitaetPerPerson": "1.1",
+            "OekologischerFussabdruckPerPerson": "2.6",
+            "totalOekologischerFussabdruck": "339000000",
+            "totalBiokapazitaet": "147000000"
+        },
+        {
+            "name": "Brasilien",
+            "biokapazitaetPerPerson": "8.6",
+            "OekologischerFussabdruckPerPerson": "2.8",
+            "totalOekologischerFussabdruck": "588000000",
+            "totalBiokapazitaet": "1800000000"
+        },
+        {
+            "name": "Argentinien",
+            "biokapazitaetPerPerson": "6.6",
+            "OekologischerFussabdruckPerPerson": "3.3",
+            "totalOekologischerFussabdruck": "146000000",
+            "totalBiokapazitaet": "291000000"
+        },
+        {
+            "name": "China",
+            "biokapazitaetPerPerson": "0.9",
+            "OekologischerFussabdruckPerPerson": "3.7",
+            "totalOekologischerFussabdruck": "5350000000",
+            "totalBiokapazitaet": "1330000000"
+        },
+        {
+            "name": "Indien",
+            "biokapazitaetPerPerson": "0.4",
+            "OekologischerFussabdruckPerPerson": "1.2",
+            "totalOekologischerFussabdruck": "1600000000",
+            "totalBiokapazitaet": "577000000"
+        },
+        {
+            "name": "Qatar",
+            "biokapazitaetPerPerson": "1.0",
+            "OekologischerFussabdruckPerPerson": "14.7",
+            "totalOekologischerFussabdruck": "38900000",
+            "totalBiokapazitaet": "2550000"
+        },
+        {
+            "name": "Russland",
+            "biokapazitaetPerPerson": "7.0",
+            "OekologischerFussabdruckPerPerson": "5.5",
+            "totalOekologischerFussabdruck": "788000000",
+            "totalBiokapazitaet": "1000000000"
+        },
+        {
+            "name": "Japan",
+            "biokapazitaetPerPerson": "0.6",
+            "OekologischerFussabdruckPerPerson": "4.7",
+            "totalOekologischerFussabdruck": "593000000",
+            "totalBiokapazitaet": "75500000"
+        },
+        {
+            "name": "Indonesien",
+            "biokapazitaetPerPerson": "1.2",
+            "OekologischerFussabdruckPerPerson": "1.7",
+            "totalOekologischerFussabdruck": "439000000",
+            "totalBiokapazitaet": "322000000"
+        },
+        {
+            "name": "Südkorea",
+            "biokapazitaetPerPerson": "0.6",
+            "OekologischerFussabdruckPerPerson": "6.2",
+            "totalOekologischerFussabdruck": "315000000",
+            "totalBiokapazitaet": "33100000"
+        },
+        {
+            "name": "Australien",
+            "biokapazitaetPerPerson": "12.6",
+            "OekologischerFussabdruckPerPerson": "7.3",
+            "totalOekologischerFussabdruck": "178000000",
+            "totalBiokapazitaet": "309000000"
+        },
+        {
+            "name": "Türkei",
+            "biokapazitaetPerPerson": "1.4",
+            "OekologischerFussabdruckPerPerson": "3.5",
+            "totalOekologischerFussabdruck": "283000000",
+            "totalBiokapazitaet": "113000000"
+        }
+    ]
+}
+    

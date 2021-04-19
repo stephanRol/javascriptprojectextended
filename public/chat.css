@@ -1,0 +1,151 @@
+div.mainContainer {
+    background-color: #fefefe;
+    border: 2px solid #dedede;
+    border-color: #bcbec2;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 80%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+/* The Modal (background) */
+.modalBox {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* in front of others elements*/
+    padding-top: 4%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    height: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*CSS CHAT*/
+
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 35%;
+    position:relative;
+    clear: right;
+    font-size: 18px;
+}
+
+.containerdarker {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 35%;
+    border-color: #011c6d;
+    background-color: #002699;
+    color: #f2f2f2;
+    position: relative;
+    float: right;
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.containerdarker::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.formChat{
+    margin-left: 30%;
+}
+
+.h2Chat{
+    margin-left: 42%;
+    color: #5f5f5f;
+}
+
+.time-right {
+    float: right;
+    color: f2f2f2;
+    font-size: 14px;
+}
+
+.time-left {
+    float: left;
+    color: #444444;
+    font-size: 14px;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}

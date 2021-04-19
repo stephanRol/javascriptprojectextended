@@ -1,0 +1,414 @@
+body{
+  margin: 0px;
+}
+ div.parallaxImg1 {
+    /* The image used */
+    background-image: url("pexels-trushotz-3656989.jpg");
+    
+    /* Set a specific height */
+    min-height: 1000px;
+    padding-top: 15px;
+    padding-left: 0px;
+    text-align:left;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.75;
+  }
+
+  div{
+    font-family: "Lato", sans-serif;
+    color: #777;
+    text-align:center;
+    padding: 35px;
+  }
+
+  a.link{
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 16px;
+    color: antiquewhite;
+    float: left;
+    
+  }
+
+  a.login{
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 16px;
+    color: antiquewhite;
+    float: right;
+  }
+
+  div{
+    clear: both;
+  }
+
+  a.login:hover, a.link:hover{
+    color:#16EED9;
+  }
+
+  div.websiteTitle{
+    font-family: "Lato", sans-serif;
+    color: antiquewhite;
+    font-size: 25px;
+    background-color: black;
+    position:absolute;
+    margin: 0 auto;
+    margin-top: 300px;
+    left: 0;
+    right: 0;
+    width:200px;
+    height: 190px; 
+  }
+
+  img.melting{  
+    width: 130px;
+  }
+
+  div.MainText{
+    font-family: 'Open Sans Condensed', sans-serif;
+    height:90px;
+    background-color:whitesmoke;
+    font-size:50px;
+    text-align:center;
+    padding-bottom: 0;
+  }
+
+  div.SecondText{
+    font-family: 'Open Sans Condensed', sans-serif;
+    height:600px;
+    background-color:whitesmoke;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size:22px;
+    text-align:left;
+    padding-top: 0;
+  }
+
+  div.ThirdPart{
+    margin-top: 1%;
+    margin-bottom: 0%;
+    background-color:whitesmoke;
+  }
+
+  img.Erde{
+    width: 100px;
+  }
+
+  p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  img.logo{
+    margin-top: 95px;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 120px;
+  }
+
+  img.logo:hover{
+    transform: scale(1.3);
+    transition: transform .5s 
+  }
+  
+  p.final{
+    background-color: dimgray;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Lato", sans-serif;
+    height: 120%;
+    color: white;
+    line-height: 2;
+    text-align:center
+  }
+
+  .parallaxImg2 {
+    /* The image used */
+    background-image: url("pexels-francesco-ungaro-1710813.jpg");
+    
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.75;    
+  }
+
+  p.tableTitle{
+    font-family: 'Open Sans Condensed', sans-serif;
+    height:70px;
+    background-color:whitesmoke;
+    font-size:50px;
+    vertical-align: center;
+    text-align:center
+  }
+
+  table {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    border-collapse: collapse;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th.rightPosition{
+    text-align: right;
+  }
+
+  div.Table{
+    overflow-y: scroll;
+    height: 300px;
+  }
+
+  .parallaxImg3 {
+    /* The image used */
+    background-image: url("pexels-tom-fisk-3181031.jpg");
+    
+    /* Set a specific height */
+    min-height: 380px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.75;    
+  }
+
+  /*Tabelle Länder Auswahl*/
+  div.footprint{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    height: 70px;
+  }
+
+  div.laenderAuswahl{
+    display: inline-block;
+    text-align: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: #777 1px solid;
+    height: 300px;
+    width: 15%;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-left: 12%;
+    margin-right: 1.6%;
+    margin-bottom: 4%;
+  }
+
+  table.laenderAuswahl{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    padding-left: 30%;
+    margin-right: 0%;
+    width: 100%; 
+  }
+
+  tr.zeileLand:hover {background-color:#f5f5f5;} 
+
+  /*Wie viele Planeten?*/
+  div.infoWieViele{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 50%;
+    padding-top: 0%;
+  }
+
+  div.laenderDaten{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 26px;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 0%;
+    padding-right: 0%;
+  }
+
+  p.berechnungen{
+    text-align: left;
+  }
+
+  div.welt{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3%;
+  }
+
+  img.weltBild{
+    width: 50%;
+  }
+
+  p.weltText{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 38px;
+    display: inline-block;
+    padding-left: 5%;
+    font-weight: bold;
+  }
+
+  /*Parallax Image 4*/
+  .parallaxImg4 {
+    /* The image used */
+    background-image: url("pexels-ruvim-miksanskiy-1438761.jpg");
+    
+    /* Set a specific height */
+    min-height: 350px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.75;    
+  }
+
+  .wieheissdarf{
+    height: 500px;
+    margin-left: 21%;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+  .btnChat{
+    padding-top: 0%;
+  }
+  /*CONTACT Formular*/
+p.contactTitle{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    height: 70px;
+  }
+
+  .datenContact{
+    width: 30%;
+    margin-left: 33%;
+    padding-bottom: 15px;
+  }
+
+  .contactButton{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#ffffff;
+    background-color:#000000;         
+    text-align:center;
+    cursor:pointer;
+  }
+
+  .contactButton:hover{
+    opacity:0.7;
+  }
+
+  /*FOOTER*/
+  footer{
+    height: 200px;
+    background-color: #303030;
+    text-align: center;
+  }
+
+  .footerButton{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:#303030;
+    background-color:#b3b3b3;         
+    text-align:center;
+    cursor:pointer;
+  }
+
+  .footerButton:hover{opacity:0.60}
+  .socialNetworkLogo{
+    font-size:26px;
+    color:#b3b3b3 ;
+  }
+
+  .sozialeNetwerke:hover{opacity:0.60}
+  div.platzfooter{
+    padding-bottom: 0%;
+  }
+
+  .entwickler{
+    color: #b3b3b3;
+  }
+
+  .entwicklerLink:hover{
+    color: #16EED9;
+    cursor:pointer;
+  }
+
+  /*Cookie policy Popup*/
+  p.cookie-absatz{
+    margin: 24px;
+    line-height: 2;
+  }
+
+  div span{
+     font-weight: bold;
+     font-size: 20px;
+  }
+
+  div.cookie-container{
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background-color: #2f3640;
+    color:#f5f6fa;
+    padding: 0 32px;
+    box-shadow: 0 -2px 16px rgb(47, 54, 64); 
+    transition:  400ms;
+  }
+
+  div.cookie-container.active{
+    bottom: 0;
+  }
+
+  button.cookie-btn{
+    background: #128b2c ;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;    
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor:pointer;
+    margin-bottom: 25px;
+  }
+
+

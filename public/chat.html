@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aplication con Sockets</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="websockets.js"></script>
+    <link href="chat.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <button id="myBtn">Chat</button>
+    <div id="myModal" class="modalBox">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="h2Chat">Chat Messages</h2>
+            <div class="mainContainer">
+                <div id="messages"></div>
+            </div>
+            <form class="formChat" onsubmit="return addMessage(this)">
+                <input type="text" id="texto" placeholder=" Schreib...">
+                <input type="submit" value="Send!">
+            </form>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
